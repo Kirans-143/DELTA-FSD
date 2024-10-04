@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Types</title>
+  </head>
+  <body>
+    <form action="/server">
+      <div>
+        <!-- Type = checkbox -->
+        <h2>select the option as per ur details</h2>
+        <input type="checkbox" id="age" name="age" />
+        <label for="age"> I am 20+</label>
+        <br />
+        <input type="checkbox" id="roll" name="roll" />
+        <label for="roll">My roll Number is 100</label>
+      </div>
+      <br />
+      <div>
+        <!-- Type = radio -->
+        <h2>select any one from below</h2>
+        <input type="radio" name="fruit" id="apple" />
+        <label for="apple">Apple</label>
+        <input type="radio" name="fruit" id="banana" />
+        <label for="banana">Banana</label>
+        <input type="radio" name="fruit" id="mango" />
+        <label for="mango">Mango</label>
+        <input type="radio" name="fruit" id="orange" />
+        <label for="orange">Orange</label>
+      </div>
+      <br />
+      <div>
+        <!-- Type = dropdown -->
+        <h2>select your profession</h2>
+        <select name="profession" id="profession">
+          <option>Select Your Option</option>
+          <option value="stu">Student</option>
+          <option value="dev">Developer</option>
+          <option value="it">IT</option>
+          <option value="tec">Tech</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <!-- type = Range -->
+        <h2>select the volume range</h2>
+        <input type="range" id="volume" name="volume" min="0" max="100" />
+        <label for="volume">Volume</label>
+      </div>
+      <br />
+      <div>
+        <!-- textarea -->
+        <label for="feedback">Write your feedback</label>
+        <textarea
+          name="feedback"
+          id="feedback"
+          placeholder="write your valuable feedback"
+          rows="5"
+          cols="10"
+        ></textarea>
+      </div>
+      <br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
